@@ -1,0 +1,228 @@
+
+   body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*导航条*/
+#nav{height: 30px;
+    text-align: right;  
+ background: url(../img/background.jpg) ;
+margin-left: -8px;
+margin-right: -8px; 
+}
+#nav a{font-size: 18px;
+    font-weight: 600;
+font-family:Georgia, "Times New Roman","simsun";
+  display: block;
+  float: left;
+  margin-left: 40px;
+  margin-top: 6px;
+  color: #fff;
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-decoration: none;}
+a#index{clear: left;}
+#nav a:hover{ color: rgb(19, 3, 3);
+            background:rgb(213, 214, 203);}
+            #search{padding: top -5px;
+                    padding-right: 30px; }           
+.btn{
+  width: 35px;
+  font-family:Georgia, "Times New Roman","simsun";
+  font-weight: 600;
+  height: 35px;
+  border-radius: 35px;
+  border: 5px solid rgb(177, 177, 7);
+  box-sizing: border-box;
+}
+/*动态的字体*/
+p{
+font-size: 44px;
+color: rgb(202, 184, 23);
+}       
+.main{
+height:44vh;
+width:100%;  
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+h1{
+text-align:center;
+letter-spacing: 1rem;
+text-transform: uppercase;
+color: #F1FAEE; 
+font-size: 4rem;
+}
+
+.roller{
+height: 4.125rem;
+letter-spacing: 1rem;
+line-height: 4rem;
+position: relative;
+overflow: hidden; 
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: #d1df14;
+}
+
+
+#你{
+font-size: 3rem;
+font-style: italic;
+letter-spacing: 1rem;
+color: #f03a0c; 
+}
+
+.roller #rolltext {
+position: absolute;
+top: 0;
+animation: slide 5s infinite;  
+}
+
+@keyframes slide {
+0%{
+  top:0;
+}
+25%{
+  top: -4rem;    
+}
+50%{
+  top: -8rem;
+}
+72.5%{
+  top: -12.25rem;
+}
+}
+/*版权信息*/
+#footer {
+height: 30px;
+line-height: 30px;
+position: fixed;
+margin-left: -8px;
+bottom: 0;
+width: 100%;
+text-align: center;
+background: rgb(8, 2, 2);
+color: #fff;
+font-family: Arial;
+font-size: 12px;
+letter-spacing: 1px;
+
+}
+
+.content {
+height: 1800px;
+position: fixed;
+width: 100%;
+text-align: center;
+}
+.content1{
+  height: 1800px;
+  position: fixed;
+  width: 80%;
+  text-align: center;
+}
+
+
+
+.log{
+    float:left;
+    position: fixed;
+    font-size: 25px;
+    width:750px;
+    top: 120px;
+    left: 820px;
+}
+#content{
+    font:15px verdanna,arial,sans-serif; 
+    position: fixed;
+    float:left;
+    width:750px;
+    top: 170px;
+    left: 850px;
+    /* letter-spacing: 1px; */
+    /* line-height: 5; */
+
+    padding: 15px 0 0 0;
+    line-height:25px;
+}
+.picture{
+    position: relative;
+    float:left;
+    width: 80%;
+    /* height: 100px; */
+    top: 80px;
+    left: 60px;
+}
+   
+.box{
+    width: 1400px;
+    height: 650px;
+    background-color: rgb(204, 201, 170);
+
+    margin: 0px auto;
+    margin-top: 20px;
+
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    padding: 1px;
+
+    border-width: 5px;
+    /* border-color: brown; */
+    /* border-style: dotted; */
+    border-style: none;
+}
+.box1{
+    float:left;
+    width: 800px;
+    height: 100%;
+    /* background-color:yellow; */
+}
+.box2{
+    float: left;
+    position: fixed;
+    width: 580px;
+    height: 800px;
+    /* background-color: tomato; */
+    margin: 0 10px;
+}
+
+
+
+#nav{
+    height: 30px;
+    text-align: right;  
+    background: url(./img/background.jpg) ;
+    margin-left: -8px;
+    margin-right: -8px; 
+}
+#nav a{font-size: 18px;
+    font-weight: 600;
+font-family:Georgia, "Times New Roman","simsun";
+  display: block;
+  float: left;
+  margin-left: 40px;
+  margin-top: 6px;
+  color: #fff;
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-decoration: none;}
+a#index{clear: left;}
+#nav a:hover{ color: rgb(19, 3, 3);
+            background:rgb(213, 214, 203);}
+            #search{padding: top -5px;
+                    padding-right: 30px; }
+
+                    .bg1{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
